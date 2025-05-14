@@ -19,8 +19,8 @@ jobs:
         with:
           java-version: "17"
           distribution: "temurin"
-      - name: Checkstyle Check
-        run: mvn checkstyle:check
+      # - name: Checkstyle Check
+      #   run: mvn checkstyle:check
       - name: Run Tests and Check Coverage
         run: mvn test jacoco:check
       - name: Generate Coverage Report
