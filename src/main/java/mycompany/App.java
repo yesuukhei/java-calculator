@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "checkstyle check" );
+        System.out.println( "checkstyle name" );
     }
 }
